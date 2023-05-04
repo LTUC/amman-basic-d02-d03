@@ -6,12 +6,12 @@
 - git init *Create a new git app*
 - git clone url(https/ssh)  *clone github repo*
 - git pull origin main *get the latset update from origin to local version*
-- git status * check the status of files*
+- git status *check the status of files*
 - git add fileName *stage the file from ws to local repo*
 - git add . *stage all the files from ws to local repo*
 - git commit -m 'commit decription'
 - git reset --soft HEAD^  *go back one step*
-- git push origin main
+- git push origin main *push the changes to remote repo*
 
 
 
