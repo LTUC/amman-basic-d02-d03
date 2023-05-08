@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Task manager dashboard." />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tasks Manager</title>
+    <!--External Styling-->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Internal Styling-->
+    <!-- <style>
+        p {
+            color: red;
+        }
+    </style> -->
+  </head>
+  <body>
+    <!-- Header content-->
+    <div>
+        <!-- Inline Styling-->
+      <!-- <h1 style="color: blue;">Welcome to our task manger dashboard</h1> -->
+      <h1 style="color: blue;">Welcome to our task manger dashboard</h1>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="./aboutus.html">About us</a></li>
+        <li><a href="">Contact us</a></li>
+      </ul>
+    </div>
+    <!-- Main content-->
+    <div>
+        <!--Article holder-->
+        <div>
+            <!-- Lorem shorthand: dummy data-->
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad vero
+              tempora, necessitatibus, ab reiciendis omnis laborum eos ut, modi unde
+              architecto explicabo! Accusamus iure necessitatibus, totam id nostrum
+              provident architecto!
+            </p>
+            <img
+              src="https://th.bing.com/th?id=OSK.41e31928059eaa5a5195fc205f23fd14&w=148&h=148&c=7&o=6&oif=webp&dpr=1.3&pid=SANGAM"
+              alt="BarcaLogo.png"
+            />
+        </div>
+        <!--Form holder-->
+        <div>
+            <form>
+                <label for="task">Task:</label>
+                <input type="text" id="task">
+                <label for="description">Description:</label>
+                <input type="text" id="description">
+                <label for="status">Status:</label>
+                <select id="status">
+                    <option value="">Choose an option:</option>
+                    <option value="active">Active</option>
+                    <option value="completed">Completed</option>
+                </select>
+                <input type="submit" value="Add task">
+            </form>
+        </div>
+        <!--Table holder-->
+        <div>
+            <table>
+                <thead>
+                    <th>Tasks</th>
+                    <th>Description</th>
+                    <th>Status</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Fix the car</td>
+                        <td>Fix a car please,  I wanna go out tonight</td>
+                        <td>Completed</td>
+                    </tr>
+                    <tr>
+                        <td>Fix the Plane</td>
+                        <td>Fix a Plane please,  I wanna travel tonight</td>
+                        <td>Active</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!--Footer-->
+    <div>
+        <p>Copyrights@UI-UX designer</p>
+    </div>
+  </body>
+</html>
