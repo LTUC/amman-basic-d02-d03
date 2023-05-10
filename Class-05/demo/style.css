@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    background-color: #BBD6B8;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    height: 50px;
+}
+
+.header .logo {
+    height: 40px;
+    width: 30px;
+}
+.header h1 {
+    font-family: 'Mulish', sans-serif;
+}
+
+.header ul {
+    display: flex;
+    gap: 20px;
+}
+
+.header ul li {
+    list-style: none;
+}
+
+.header ul li a {
+    text-decoration: none;
+}
+
+.main {
+    background-color:#AEC2B6 ;
+    min-height: calc(100vh - 50px);
+}
+
+.main .article {
+    display: flex;
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 40px;
+    align-items: center;
+}
+
+
+.main .form-table {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 40px;
+}
+
+.main .form-table form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    border: #413543 solid 2px;
+    border-radius: 5px;
+    gap: 5px;
+}
+
+.main .form-table form input[type='submit'] {
+    width: 70px;
+    margin: 0 auto;
+}
+
+.main .form-table form input[type='submit']:hover {
+    cursor: pointer;
+}
+
+.main .form-table table,
+.main .form-table table thead th,
+.main .form-table table tbody tr td
+{
+    border: #413543 solid 2px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.footer {
+    height: 20px;
+    background-color: #BBD6B8;
+}
+
+.footer p {
+    text-align: center;
+}
+
+
