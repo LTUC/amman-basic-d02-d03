@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students form</title>
+</head>
+
+<body>
+    <header>
+        <h1> students information</h1>
+        <ul>
+            <li><a href="./index.html">home</a></li>
+            <li><a href="./from.html"> Form</a></li>
+        </ul>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend> Personal info</legend>
+            <lable for="name"> name </lable>
+            <input type="text" id="name" placeholder="Eman" /></br>
+
+            <lable for="password">password</lable>
+            <input type="password" id="password" /></br>
+
+            <lable for="age">age</lable>
+            <input type="number" id="age" min="10" max="40"></br>
+
+            <input type="radio"  name="gender"id="male" />
+            <label for="gender"> male</label></br>
+            <input type="radio" name="gender" id="female" />
+            <label for="gender"> female</label></br>
+        </fieldset>
+    </br>
+        <fieldset>
+            <legend> education information</legend>
+            <label for="major">major</label>
+           <select id="major" name="major" >
+            <option value="1">computer science</option>
+            <option value="2" >web design</option>
+            <option value="3">architecture</option>
+            <option value="4">software engineering</option>
+           </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>courses info</legend>
+            <h4>choose a course</h4>
+            <label for ="course"> QA</label>
+            <input type="checkbox" id="QA" name="QA" value="QA"></br>
+            <label for ="course"> UI/UX</label>
+            <input type="checkbox" id="UI/UX" name="UI/UX" value="UI/UX"></br>
+            <label for ="course"> JS</label>
+            <input type="checkbox" id="JS" name="JS" value="JS"></br>
+        </fieldset>
+
+        <label for="submit"></label>
+        <input type="submit" id="submit" value="move to the next page"/>
+           
+
+
+
+
+        </form>
+
+
+
+    </main>
+    <footer>
+        <p>
+            &copy all rights reserved for asac
+        </p>
+        <a href="https://www.linkedin.com/notifications"><i class="fa-brands fa-linkedin"></i></a></i>
+
+    </footer>
+
+</body>
+
+</html>
