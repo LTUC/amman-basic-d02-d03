@@ -1,0 +1,53 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #73A9AD;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+header ul {
+    display: flex;
+    gap: 20px;
+}
+
+header ul li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+header ul li a {
+    text-decoration: none;
+
+}
+
+table,
+th,
+td {
+    border: solid;
+    /* border-radius: 10px; */
+    border-collapse: collapse;
+}
+
+table {
+    width: 60%;
+    margin: auto;
+}
+
+table thead {
+    background-color: #B3C890;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
