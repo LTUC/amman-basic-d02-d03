@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1> ASAC Coffee House </h1>
+    </header>
+    <main>
+        <section>
+
+            <form id="drinkForm">
+                <fieldset>
+                    <legend>Add new drink</legend>
+                    <div>
+                        <label for="coffeName">Coffee Name</label>
+                        <input type="text" id="coffeName" name="coffee" placeholder="add coffee name" />
+                    </div>
+                    <div>
+                        <label for="ingredients">Ingredients</label>
+                        <input type="text" name="ingredients" id="ingredients" placeholder="split with comma"/>
+                    </div>
+                    <div>
+                        <label for="image">Image</label>
+                        <input type="text" name="image" id="image" placeholder="use short link"/>
+                    </div>
+                    <div>
+                        <label for="hot">is Hot</label>
+                        <input type="checkbox" id="hot" name="hot" />
+                    </div>
+                    <button type="submit">save</button>
+                </fieldset>
+            </form>
+        </section>
+        <section id="drink">
+
+        </section>
+    </main>
+    <footer>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+
+</html>
