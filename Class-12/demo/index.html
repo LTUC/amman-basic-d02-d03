@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>ASAC</title>
+</head>
+
+<body>
+    <header>
+        <h1> ASAC Coffee House </h1>
+    </header>
+    <main>
+
+        <!-- Form Card -->
+        <div class="card">
+            <div class="card-image">
+                <h2 class="card-heading">
+                    Get started
+                    <small>Add New Drink</small>
+                </h2>
+            </div>
+            <!-- Form  -->
+            <form id="drinkForm" class="card-form">
+                <div class="input">
+                    <input type="text" id="coffeName" name="coffee" placeholder="add coffee name" class="input-field" />
+                    <label for="coffeName" class="input-label">Drink name</label>
+                </div>
+                <div class="input">
+                    <input type="text" class="input-field" name="ingredients" id="ingredients"
+                        placeholder="split with comma" />
+                    <label for="ingredients" class="input-label">Drink Ingredients</label>
+                </div>
+                <div class="input">
+                    <input type="text" class="input-field" name="image" id="image" placeholder="Enter Image path" />
+                    <label for="image" class="input-label">Drink Image URL</label>
+                </div>
+                <div class="input">
+                    <label for="hot" class="form-control">
+                        <input type="checkbox" id="hot" name="hot" />
+                        is Hot
+                    </label>
+                </div>
+                <div class="action">
+                    <button type="submit" class="action-button">Save</button>
+                </div>
+            </form>
+
+        </div>
+        <div>
+            <div >
+                <table id = "table">
+                
+
+                </table>
+            </div>
+            <section id="drinks">
+
+            </section>
+        </div>
+
+
+    </main>
+    <footer>
+    </footer>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

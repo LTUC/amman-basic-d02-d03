@@ -1,0 +1,231 @@
+
+h1{
+    text-align: center;
+}
+/*  Table */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  /* Cards and Form */
+  /*  https://codepen.io/havardob/pen/eYJPwdb  */
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+ *, *:after, *:before {
+      box-sizing: border-box;
+  }
+  
+  body {
+      font-family: "DM Sans", sans-serif;
+      line-height: 1.5;
+      background-color: #f1f3fb;
+      padding: 0 2rem;
+  }
+  
+  img {
+      max-width: 100%;
+      height: 300px;
+      display: block;
+  }
+  
+  hr{
+    width: 200%;
+    
+}
+
+  input {
+      appearance: none;
+      border-radius: 0;
+  }
+  
+  .card {
+      margin: 2rem auto;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: 425px;
+      background-color: #FFF;
+      border-radius: 10px;
+      box-shadow: 0 10px 20px 0 rgba(#999, .25);
+      padding: .75rem;
+  }
+  
+  .card-image {
+      border-radius: 8px;
+      overflow: hidden;
+      padding-bottom: 65%;
+      background-image: url('https://assets.codepen.io/285131/coffee_1.jpg');
+      background-repeat: no-repeat;
+      background-size: 150%;
+      background-position: 0 5%;
+      position: relative;
+  }
+  
+  .card-heading {
+      position: absolute;
+      left: 10%;
+      top: 15%;
+      right: 10%;
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: #735400;
+      line-height: 1.222;
+  }
+  
+  .card-form {
+      padding: 2rem 1rem 0;
+  }
+  
+  .input {
+      display: flex;
+      flex-direction: column-reverse;
+      position: relative;
+      padding-top: 1.5rem;
+      &+.input {
+          margin-top: 1.5rem;
+      }
+  }
+  
+  .input-label {
+      color: #8597a3;
+      position: absolute;
+      top: 1.5rem;
+      transition: .25s ease;
+  }
+  
+  .input-field {
+      border: 0;
+      z-index: 1;
+      background-color: transparent;
+      border-bottom: 2px solid #eee; 
+      font: inherit;
+      font-size: 1.125rem;
+      padding: .25rem 0;
+      &:focus, &:valid {
+          outline: 0;
+          border-bottom-color: #6658d3;
+          &+.input-label {
+              color: #6658d3;
+              transform: translateY(-1.5rem);
+          }
+      }
+  }
+  
+
+  .action {
+      margin-top: 2rem;
+  }
+  
+  .action-button {
+      font: inherit;
+      font-size: 1.25rem;
+      padding: 1em;
+      width: 100%;
+      font-weight: 500;
+      background-color: #6658d3;
+      border-radius: 6px;
+      color: #FFF;
+      border: 0;
+      &:focus {
+          outline: 0;
+      }
+  }
+   
+  
+  /*  
+  check Box https://codepen.io/5t3ph/pen/RwrOygP
+   */
+   
+   :root {
+     --form-control-color: rgb(61, 91, 146);
+     --form-control-disabled: #959495;
+   }
+   
+   .form-control {
+     font-family: system-ui, sans-serif;
+     font-size: 1rem;
+     font-weight: bold;
+     line-height: 1.1;
+     display: grid;
+     grid-template-columns: 1em auto;
+     gap: 0.5em;
+   }
+   
+   .form-control + .form-control {
+     margin-top: 1em;
+   }
+   
+   .form-control--disabled {
+     color: var(--form-control-disabled);
+     cursor: not-allowed;
+   }
+   
+   input[type="checkbox"] {
+     /* Add if not using autoprefixer */
+     -webkit-appearance: none;
+     /* Remove most all native input styles */
+     appearance: none;
+     /* For iOS < 15 */
+     background-color: var(--form-background);
+     /* Not removed via appearance */
+     margin: 0;
+   
+     font: inherit;
+     color: currentColor;
+     width: 1.15em;
+     height: 1.15em;
+     border: 0.15em solid currentColor;
+     border-radius: 0.15em;
+     transform: translateY(-0.075em);
+   
+     display: grid;
+     place-content: center;
+   }
+   
+   input[type="checkbox"]::before {
+     content: "";
+     width: 0.65em;
+     height: 0.65em;
+     clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+     transform: scale(0);
+     transform-origin: bottom left;
+     transition: 120ms transform ease-in-out;
+     box-shadow: inset 1em 1em var(--form-control-color);
+     /* Windows High Contrast Mode */
+     background-color: CanvasText;
+   }
+   
+   input[type="checkbox"]:checked::before {
+     transform: scale(1);
+   }
+   
+   input[type="checkbox"]:focus {
+     outline: max(2px, 0.15em) solid currentColor;
+     outline-offset: max(2px, 0.15em);
+   }
+   
+   input[type="checkbox"]:disabled {
+     --form-control-color: var(--form-control-disabled);
+   
+     color: var(--form-control-disabled);
+     cursor: not-allowed;
+   }
+   
+  
+  
+  
+  
