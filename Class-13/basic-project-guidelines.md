@@ -27,6 +27,9 @@ At a minimum, your `README.md` should include the following:
 - Names of the team members
 - A description of the project
 - The overall problem domain and how the project solves those problems
+- Link or screenshots of your wireframe
+- Link or screenshots of your design
+- Link of your website live URL
 - Provide instructions that the user may need to follow in order to get your application up and running on their own computer.
 
 Within your code, document with meaningful comments. For example, a comment might provide an overview of what the function beneath it is doing, or describe the relationship between two variables.
